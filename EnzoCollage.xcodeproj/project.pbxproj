@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7313ABA928877AF300D0CCFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABA828877AF300D0CCFE /* AppDelegate.swift */; };
+		7313ABAB28877AF300D0CCFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABAA28877AF300D0CCFE /* SceneDelegate.swift */; };
+		7313ABAD28877AF300D0CCFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABAC28877AF300D0CCFE /* ViewController.swift */; };
+		7313ABB028877AF300D0CCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7313ABAE28877AF300D0CCFE /* Main.storyboard */; };
+		7313ABB228877AF600D0CCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7313ABB128877AF600D0CCFE /* Assets.xcassets */; };
+		7313ABB528877AF600D0CCFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7313ABB328877AF600D0CCFE /* LaunchScreen.storyboard */; };
+		7313ABC028877AF700D0CCFE /* EnzoCollageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABBF28877AF700D0CCFE /* EnzoCollageTests.swift */; };
+		7313ABCA28877AF700D0CCFE /* EnzoCollageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABC928877AF700D0CCFE /* EnzoCollageUITests.swift */; };
+		7313ABCC28877AF700D0CCFE /* EnzoCollageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABCB28877AF700D0CCFE /* EnzoCollageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7313ABBC28877AF700D0CCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7313AB9D28877AF300D0CCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7313ABA428877AF300D0CCFE;
+			remoteInfo = EnzoCollage;
+		};
+		7313ABC628877AF700D0CCFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7313AB9D28877AF300D0CCFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7313ABA428877AF300D0CCFE;
+			remoteInfo = EnzoCollage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7313ABA528877AF300D0CCFE /* EnzoCollage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnzoCollage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7313ABA828877AF300D0CCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7313ABAA28877AF300D0CCFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7313ABAC28877AF300D0CCFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7313ABAF28877AF300D0CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7313ABB128877AF600D0CCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7313ABB428877AF600D0CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7313ABB628877AF600D0CCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7313ABBB28877AF700D0CCFE /* EnzoCollageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnzoCollageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7313ABBF28877AF700D0CCFE /* EnzoCollageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnzoCollageTests.swift; sourceTree = "<group>"; };
+		7313ABC528877AF700D0CCFE /* EnzoCollageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnzoCollageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7313ABC928877AF700D0CCFE /* EnzoCollageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnzoCollageUITests.swift; sourceTree = "<group>"; };
+		7313ABCB28877AF700D0CCFE /* EnzoCollageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnzoCollageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7313ABA228877AF300D0CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313ABB828877AF700D0CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313ABC228877AF700D0CCFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7313AB9C28877AF300D0CCFE = {
+			isa = PBXGroup;
+			children = (
+				7313ABA728877AF300D0CCFE /* EnzoCollage */,
+				7313ABBE28877AF700D0CCFE /* EnzoCollageTests */,
+				7313ABC828877AF700D0CCFE /* EnzoCollageUITests */,
+				7313ABA628877AF300D0CCFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7313ABA628877AF300D0CCFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7313ABA528877AF300D0CCFE /* EnzoCollage.app */,
+				7313ABBB28877AF700D0CCFE /* EnzoCollageTests.xctest */,
+				7313ABC528877AF700D0CCFE /* EnzoCollageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7313ABA728877AF300D0CCFE /* EnzoCollage */ = {
+			isa = PBXGroup;
+			children = (
+				7313ABA828877AF300D0CCFE /* AppDelegate.swift */,
+				7313ABAA28877AF300D0CCFE /* SceneDelegate.swift */,
+				7313ABAC28877AF300D0CCFE /* ViewController.swift */,
+				7313ABAE28877AF300D0CCFE /* Main.storyboard */,
+				7313ABB128877AF600D0CCFE /* Assets.xcassets */,
+				7313ABB328877AF600D0CCFE /* LaunchScreen.storyboard */,
+				7313ABB628877AF600D0CCFE /* Info.plist */,
+			);
+			path = EnzoCollage;
+			sourceTree = "<group>";
+		};
+		7313ABBE28877AF700D0CCFE /* EnzoCollageTests */ = {
+			isa = PBXGroup;
+			children = (
+				7313ABBF28877AF700D0CCFE /* EnzoCollageTests.swift */,
+			);
+			path = EnzoCollageTests;
+			sourceTree = "<group>";
+		};
+		7313ABC828877AF700D0CCFE /* EnzoCollageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7313ABC928877AF700D0CCFE /* EnzoCollageUITests.swift */,
+				7313ABCB28877AF700D0CCFE /* EnzoCollageUITestsLaunchTests.swift */,
+			);
+			path = EnzoCollageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7313ABA428877AF300D0CCFE /* EnzoCollage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7313ABCF28877AF700D0CCFE /* Build configuration list for PBXNativeTarget "EnzoCollage" */;
+			buildPhases = (
+				7313ABA128877AF300D0CCFE /* Sources */,
+				7313ABA228877AF300D0CCFE /* Frameworks */,
+				7313ABA328877AF300D0CCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EnzoCollage;
+			productName = EnzoCollage;
+			productReference = 7313ABA528877AF300D0CCFE /* EnzoCollage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7313ABBA28877AF700D0CCFE /* EnzoCollageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7313ABD228877AF700D0CCFE /* Build configuration list for PBXNativeTarget "EnzoCollageTests" */;
+			buildPhases = (
+				7313ABB728877AF700D0CCFE /* Sources */,
+				7313ABB828877AF700D0CCFE /* Frameworks */,
+				7313ABB928877AF700D0CCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7313ABBD28877AF700D0CCFE /* PBXTargetDependency */,
+			);
+			name = EnzoCollageTests;
+			productName = EnzoCollageTests;
+			productReference = 7313ABBB28877AF700D0CCFE /* EnzoCollageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7313ABC428877AF700D0CCFE /* EnzoCollageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7313ABD528877AF700D0CCFE /* Build configuration list for PBXNativeTarget "EnzoCollageUITests" */;
+			buildPhases = (
+				7313ABC128877AF700D0CCFE /* Sources */,
+				7313ABC228877AF700D0CCFE /* Frameworks */,
+				7313ABC328877AF700D0CCFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7313ABC728877AF700D0CCFE /* PBXTargetDependency */,
+			);
+			name = EnzoCollageUITests;
+			productName = EnzoCollageUITests;
+			productReference = 7313ABC528877AF700D0CCFE /* EnzoCollageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7313AB9D28877AF300D0CCFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7313ABA428877AF300D0CCFE = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7313ABBA28877AF700D0CCFE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7313ABA428877AF300D0CCFE;
+					};
+					7313ABC428877AF700D0CCFE = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7313ABA428877AF300D0CCFE;
+					};
+				};
+			};
+			buildConfigurationList = 7313ABA028877AF300D0CCFE /* Build configuration list for PBXProject "EnzoCollage" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7313AB9C28877AF300D0CCFE;
+			productRefGroup = 7313ABA628877AF300D0CCFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7313ABA428877AF300D0CCFE /* EnzoCollage */,
+				7313ABBA28877AF700D0CCFE /* EnzoCollageTests */,
+				7313ABC428877AF700D0CCFE /* EnzoCollageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7313ABA328877AF300D0CCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313ABB528877AF600D0CCFE /* LaunchScreen.storyboard in Resources */,
+				7313ABB228877AF600D0CCFE /* Assets.xcassets in Resources */,
+				7313ABB028877AF300D0CCFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313ABB928877AF700D0CCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313ABC328877AF700D0CCFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7313ABA128877AF300D0CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313ABAD28877AF300D0CCFE /* ViewController.swift in Sources */,
+				7313ABA928877AF300D0CCFE /* AppDelegate.swift in Sources */,
+				7313ABAB28877AF300D0CCFE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313ABB728877AF700D0CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313ABC028877AF700D0CCFE /* EnzoCollageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7313ABC128877AF700D0CCFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7313ABCC28877AF700D0CCFE /* EnzoCollageUITestsLaunchTests.swift in Sources */,
+				7313ABCA28877AF700D0CCFE /* EnzoCollageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7313ABBD28877AF700D0CCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7313ABA428877AF300D0CCFE /* EnzoCollage */;
+			targetProxy = 7313ABBC28877AF700D0CCFE /* PBXContainerItemProxy */;
+		};
+		7313ABC728877AF700D0CCFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7313ABA428877AF300D0CCFE /* EnzoCollage */;
+			targetProxy = 7313ABC628877AF700D0CCFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7313ABAE28877AF300D0CCFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7313ABAF28877AF300D0CCFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7313ABB328877AF600D0CCFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7313ABB428877AF600D0CCFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7313ABCD28877AF700D0CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7313ABCE28877AF700D0CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7313ABD028877AF700D0CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnzoCollage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joao.CalculatorNotes.EnzoCollage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7313ABD128877AF700D0CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EnzoCollage/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joao.CalculatorNotes.EnzoCollage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7313ABD328877AF700D0CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joao.CalculatorNotes.EnzoCollageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnzoCollage.app/EnzoCollage";
+			};
+			name = Debug;
+		};
+		7313ABD428877AF700D0CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joao.CalculatorNotes.EnzoCollageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnzoCollage.app/EnzoCollage";
+			};
+			name = Release;
+		};
+		7313ABD628877AF700D0CCFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joao.CalculatorNotes.EnzoCollageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnzoCollage;
+			};
+			name = Debug;
+		};
+		7313ABD728877AF700D0CCFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NZC6LC8NWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joao.CalculatorNotes.EnzoCollageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EnzoCollage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7313ABA028877AF300D0CCFE /* Build configuration list for PBXProject "EnzoCollage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7313ABCD28877AF700D0CCFE /* Debug */,
+				7313ABCE28877AF700D0CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7313ABCF28877AF700D0CCFE /* Build configuration list for PBXNativeTarget "EnzoCollage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7313ABD028877AF700D0CCFE /* Debug */,
+				7313ABD128877AF700D0CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7313ABD228877AF700D0CCFE /* Build configuration list for PBXNativeTarget "EnzoCollageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7313ABD328877AF700D0CCFE /* Debug */,
+				7313ABD428877AF700D0CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7313ABD528877AF700D0CCFE /* Build configuration list for PBXNativeTarget "EnzoCollageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7313ABD628877AF700D0CCFE /* Debug */,
+				7313ABD728877AF700D0CCFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7313AB9D28877AF300D0CCFE /* Project object */;
+}
