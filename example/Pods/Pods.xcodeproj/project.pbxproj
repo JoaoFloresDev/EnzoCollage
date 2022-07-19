@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F9181B168CAB97DD238BAFCB12BA88 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF1E24E4EB6E7E071F4E045B2CAEC20 /* UIColor+Extensions.swift */; };
+		08359F5CC965575A6606876D106B58FA /* ColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877B20169A1E917C7084FD9C8D8252F5 /* ColorAnimation.swift */; };
+		215EFFB1A184DDC5B182A1387190528E /* Pods-BouncyLayout_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3A62AAD72B79C14C47CAE1D7824BDD /* Pods-BouncyLayout_Example-dummy.m */; };
+		23387CEF2BB52C31F412E532AFDAC21A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3CB260775B401E115147B955227AC21C /* FancyGradientView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD4E5EA79B6DA6238DDEEFB21BB12F0 /* FancyGradientView+Animation.swift */; };
+		591326942E8DCDFEC77622242BC03012 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E043548202C9A1B97CBB70B4784ECF /* CustomAnimation.swift */; };
+		787DC5F8E12A7C2D76D345E2EC73F497 /* FancyGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12673C70BA08D551DE9140481F62C07 /* FancyGradientView.swift */; };
+		7D9B7A1EC960E0BC9A86C7E1B31BD487 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AE6B4B7E47BE30C63527A045BEC686FB /* CombineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FC45DF299811D79EB5D061215BE49E /* CombineAnimation.swift */; };
+		BF2C80D1A1D76D9E5A591871CCC2D09A /* FancyGradientView+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2EFF948CE4C458387DC5753387FB73 /* FancyGradientView+Model.swift */; };
+		C36D29655B11757446C5157D144C0FEB /* EmptyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE99BDBEE1F585ED805952F25FD9C38 /* EmptyAnimation.swift */; };
+		C390B12BD2D07E2B6218880B578A01E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C620DD5E3334C4AE8B37D4493056A321 /* BouncyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 473C6766295AF7E226CE340383AAB949 /* BouncyLayout-dummy.m */; };
+		C75D3BC6303613619DB38BC378780A92 /* Pods-BouncyLayout_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C5B2E8E908D0DFA904DED00FA6863B0 /* Pods-BouncyLayout_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D143882504505BF8A10C4D936E92255B /* BouncyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EC52B4936BE55D70239450AAFC1B3D /* BouncyLayout.swift */; };
+		DA398A29880CD0AADCE766D31ABE76B7 /* FancyGradient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 127BE9E4C47419A93B7E0684C73E8E6A /* FancyGradient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC914894E0211D4B1206B69E9EA3D244 /* DirectionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7311AD84A19AB0731BF9CE9ABF8ED073 /* DirectionAnimation.swift */; };
+		EF71D6F57E690FB607D03FAC132848C5 /* Animationable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7C459778219F7861938585E83A5EF6 /* Animationable.swift */; };
+		F4ED6C1DA40114A698B78F3C83E8CB51 /* BouncyLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF9BC0144D201D163FA4672B61200AE7 /* BouncyLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6296C384778AE8E4129C287F6E58E39 /* ColorStopsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D315B0E9AEC658BFD94C84A6A831BC6 /* ColorStopsAnimation.swift */; };
+		FDBBB9F31297EF17000FBBA55662A270 /* FancyGradient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 255F76994424EE55AECCA82900EEAF13 /* FancyGradient-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80A5023B5B501C4DF26FD4093D7F1442 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA76AA5DCD34C1E1982EF315C7CFDC52;
+			remoteInfo = FancyGradient;
+		};
+		D8EA48698683897A9C3C9EB3787A096F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA1BE4A496C959455DA469868E5FCEF;
+			remoteInfo = BouncyLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06612310E89C9A0396377E5B3B1AD2B6 /* BouncyLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BouncyLayout.modulemap; sourceTree = "<group>"; };
+		127BE9E4C47419A93B7E0684C73E8E6A /* FancyGradient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FancyGradient-umbrella.h"; sourceTree = "<group>"; };
+		222CE611B754149626CA2D09B64333A5 /* BouncyLayout-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BouncyLayout-Info.plist"; sourceTree = "<group>"; };
+		255F76994424EE55AECCA82900EEAF13 /* FancyGradient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FancyGradient-dummy.m"; sourceTree = "<group>"; };
+		2C5B2E8E908D0DFA904DED00FA6863B0 /* Pods-BouncyLayout_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BouncyLayout_Example-umbrella.h"; sourceTree = "<group>"; };
+		2F10A11D669E6653E5B4F1EED44051C3 /* Pods-BouncyLayout_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BouncyLayout_Example.modulemap"; sourceTree = "<group>"; };
+		3D5C82A9429281CF36EEEBE4B8FC76CB /* Pods-BouncyLayout_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BouncyLayout_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		473C6766295AF7E226CE340383AAB949 /* BouncyLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BouncyLayout-dummy.m"; sourceTree = "<group>"; };
+		5D315B0E9AEC658BFD94C84A6A831BC6 /* ColorStopsAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorStopsAnimation.swift; path = Sources/FancyGradient/ColorStopsAnimation.swift; sourceTree = "<group>"; };
+		5E7C459778219F7861938585E83A5EF6 /* Animationable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animationable.swift; path = Sources/FancyGradient/Animationable.swift; sourceTree = "<group>"; };
+		5F3E037B7D768A625B0DD0D8A4D149AA /* BouncyLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BouncyLayout.debug.xcconfig; sourceTree = "<group>"; };
+		6010DE9739F7459BBA2371F7935E8336 /* FancyGradient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FancyGradient.modulemap; sourceTree = "<group>"; };
+		62883155C3F9C03F1FB4BB7C189B6E91 /* BouncyLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BouncyLayout.release.xcconfig; sourceTree = "<group>"; };
+		68EC52B4936BE55D70239450AAFC1B3D /* BouncyLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BouncyLayout.swift; path = BouncyLayout/Classes/BouncyLayout.swift; sourceTree = "<group>"; };
+		6EEFCD0533BB36DA3BEAA6BCF903FFEA /* FancyGradient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FancyGradient-prefix.pch"; sourceTree = "<group>"; };
+		7079B0AA868052E0C4E39D35215193CE /* FancyGradient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FancyGradient.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7311AD84A19AB0731BF9CE9ABF8ED073 /* DirectionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectionAnimation.swift; path = Sources/FancyGradient/DirectionAnimation.swift; sourceTree = "<group>"; };
+		7504C022BF81EA6E8241763BAC782E27 /* Pods-BouncyLayout_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BouncyLayout_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7EF1E24E4EB6E7E071F4E045B2CAEC20 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "Sources/FancyGradient/UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		7F3A62AAD72B79C14C47CAE1D7824BDD /* Pods-BouncyLayout_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BouncyLayout_Example-dummy.m"; sourceTree = "<group>"; };
+		877B20169A1E917C7084FD9C8D8252F5 /* ColorAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorAnimation.swift; path = Sources/FancyGradient/ColorAnimation.swift; sourceTree = "<group>"; };
+		90A281AC774BDF53CE20FFD0F8DC61A8 /* Pods-BouncyLayout_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BouncyLayout_Example.release.xcconfig"; sourceTree = "<group>"; };
+		91C5FAEF6EA54F82CA9B5B68188F0DA9 /* FancyGradient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FancyGradient.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EE99BDBEE1F585ED805952F25FD9C38 /* EmptyAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyAnimation.swift; path = Sources/FancyGradient/EmptyAnimation.swift; sourceTree = "<group>"; };
+		9F2EFF948CE4C458387DC5753387FB73 /* FancyGradientView+Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FancyGradientView+Model.swift"; path = "Sources/FancyGradient/FancyGradientView+Model.swift"; sourceTree = "<group>"; };
+		AFD4E5EA79B6DA6238DDEEFB21BB12F0 /* FancyGradientView+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FancyGradientView+Animation.swift"; path = "Sources/FancyGradient/FancyGradientView+Animation.swift"; sourceTree = "<group>"; };
+		B0FC45DF299811D79EB5D061215BE49E /* CombineAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineAnimation.swift; path = Sources/FancyGradient/CombineAnimation.swift; sourceTree = "<group>"; };
+		B5E043548202C9A1B97CBB70B4784ECF /* CustomAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAnimation.swift; path = Sources/FancyGradient/CustomAnimation.swift; sourceTree = "<group>"; };
+		BAA0E3EC8BE434AC1D05B692681312BC /* BouncyLayout */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BouncyLayout; path = BouncyLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9723248FB3A2C416A41C38A58E335A4 /* Pods-BouncyLayout_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BouncyLayout_Example-Info.plist"; sourceTree = "<group>"; };
+		CF9BC0144D201D163FA4672B61200AE7 /* BouncyLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BouncyLayout-umbrella.h"; sourceTree = "<group>"; };
+		D12673C70BA08D551DE9140481F62C07 /* FancyGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FancyGradientView.swift; path = Sources/FancyGradient/FancyGradientView.swift; sourceTree = "<group>"; };
+		D9297D7C3DF2C0B1F4EE38248C796555 /* Pods-BouncyLayout_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BouncyLayout_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E135E5B3A59179F6AE705EBA4783E728 /* BouncyLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BouncyLayout-prefix.pch"; sourceTree = "<group>"; };
+		E7B30A094B4ADAC83CB68D3CAD20498C /* Pods-BouncyLayout_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BouncyLayout_Example"; path = Pods_BouncyLayout_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10A6E16800F14AAFFA7EE45514079E7 /* FancyGradient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FancyGradient-Info.plist"; sourceTree = "<group>"; };
+		F98797CD672E189DD9C7E3EB6F829DA2 /* FancyGradient */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FancyGradient; path = FancyGradient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC76A149FD9B10D8A83196CFE20051C8 /* Pods-BouncyLayout_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BouncyLayout_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96AAF07A7F8BE283A8FC96F6B3173512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23387CEF2BB52C31F412E532AFDAC21A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D2E27847D1FB814880016491912320 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9B7A1EC960E0BC9A86C7E1B31BD487 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB154B3583C1B7AC2E884C316758E82D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C390B12BD2D07E2B6218880B578A01E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100B93BB97CD16E272EB3607EA30E81F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BBCC14F85076ACE03BA40828559DF1B1 /* Pods-BouncyLayout_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		27643203B2F7C2AC04A15A4FF8355A51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA0E3EC8BE434AC1D05B692681312BC /* BouncyLayout */,
+				F98797CD672E189DD9C7E3EB6F829DA2 /* FancyGradient */,
+				E7B30A094B4ADAC83CB68D3CAD20498C /* Pods-BouncyLayout_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F9ACAD84AE143013F29F04E3F024039 /* FancyGradient */ = {
+			isa = PBXGroup;
+			children = (
+				5E7C459778219F7861938585E83A5EF6 /* Animationable.swift */,
+				877B20169A1E917C7084FD9C8D8252F5 /* ColorAnimation.swift */,
+				5D315B0E9AEC658BFD94C84A6A831BC6 /* ColorStopsAnimation.swift */,
+				B0FC45DF299811D79EB5D061215BE49E /* CombineAnimation.swift */,
+				B5E043548202C9A1B97CBB70B4784ECF /* CustomAnimation.swift */,
+				7311AD84A19AB0731BF9CE9ABF8ED073 /* DirectionAnimation.swift */,
+				9EE99BDBEE1F585ED805952F25FD9C38 /* EmptyAnimation.swift */,
+				D12673C70BA08D551DE9140481F62C07 /* FancyGradientView.swift */,
+				AFD4E5EA79B6DA6238DDEEFB21BB12F0 /* FancyGradientView+Animation.swift */,
+				9F2EFF948CE4C458387DC5753387FB73 /* FancyGradientView+Model.swift */,
+				7EF1E24E4EB6E7E071F4E045B2CAEC20 /* UIColor+Extensions.swift */,
+				D87AB192BBF0972C52B0199C49038BAB /* Support Files */,
+			);
+			name = FancyGradient;
+			path = FancyGradient;
+			sourceTree = "<group>";
+		};
+		4F5CE875E289D28056C7EA42469DE708 /* BouncyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				68EC52B4936BE55D70239450AAFC1B3D /* BouncyLayout.swift */,
+				5E733842DC4E39D320E30B915D4FE987 /* Support Files */,
+			);
+			name = BouncyLayout;
+			path = BouncyLayout;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E733842DC4E39D320E30B915D4FE987 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06612310E89C9A0396377E5B3B1AD2B6 /* BouncyLayout.modulemap */,
+				473C6766295AF7E226CE340383AAB949 /* BouncyLayout-dummy.m */,
+				222CE611B754149626CA2D09B64333A5 /* BouncyLayout-Info.plist */,
+				E135E5B3A59179F6AE705EBA4783E728 /* BouncyLayout-prefix.pch */,
+				CF9BC0144D201D163FA4672B61200AE7 /* BouncyLayout-umbrella.h */,
+				5F3E037B7D768A625B0DD0D8A4D149AA /* BouncyLayout.debug.xcconfig */,
+				62883155C3F9C03F1FB4BB7C189B6E91 /* BouncyLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BouncyLayout";
+			sourceTree = "<group>";
+		};
+		8E47D736E3471A81043E92584FF992A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F5CE875E289D28056C7EA42469DE708 /* BouncyLayout */,
+				2F9ACAD84AE143013F29F04E3F024039 /* FancyGradient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BBCC14F85076ACE03BA40828559DF1B1 /* Pods-BouncyLayout_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2F10A11D669E6653E5B4F1EED44051C3 /* Pods-BouncyLayout_Example.modulemap */,
+				7504C022BF81EA6E8241763BAC782E27 /* Pods-BouncyLayout_Example-acknowledgements.markdown */,
+				3D5C82A9429281CF36EEEBE4B8FC76CB /* Pods-BouncyLayout_Example-acknowledgements.plist */,
+				7F3A62AAD72B79C14C47CAE1D7824BDD /* Pods-BouncyLayout_Example-dummy.m */,
+				FC76A149FD9B10D8A83196CFE20051C8 /* Pods-BouncyLayout_Example-frameworks.sh */,
+				C9723248FB3A2C416A41C38A58E335A4 /* Pods-BouncyLayout_Example-Info.plist */,
+				2C5B2E8E908D0DFA904DED00FA6863B0 /* Pods-BouncyLayout_Example-umbrella.h */,
+				D9297D7C3DF2C0B1F4EE38248C796555 /* Pods-BouncyLayout_Example.debug.xcconfig */,
+				90A281AC774BDF53CE20FFD0F8DC61A8 /* Pods-BouncyLayout_Example.release.xcconfig */,
+			);
+			name = "Pods-BouncyLayout_Example";
+			path = "Target Support Files/Pods-BouncyLayout_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8E47D736E3471A81043E92584FF992A6 /* Pods */,
+				27643203B2F7C2AC04A15A4FF8355A51 /* Products */,
+				100B93BB97CD16E272EB3607EA30E81F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D87AB192BBF0972C52B0199C49038BAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6010DE9739F7459BBA2371F7935E8336 /* FancyGradient.modulemap */,
+				255F76994424EE55AECCA82900EEAF13 /* FancyGradient-dummy.m */,
+				F10A6E16800F14AAFFA7EE45514079E7 /* FancyGradient-Info.plist */,
+				6EEFCD0533BB36DA3BEAA6BCF903FFEA /* FancyGradient-prefix.pch */,
+				127BE9E4C47419A93B7E0684C73E8E6A /* FancyGradient-umbrella.h */,
+				7079B0AA868052E0C4E39D35215193CE /* FancyGradient.debug.xcconfig */,
+				91C5FAEF6EA54F82CA9B5B68188F0DA9 /* FancyGradient.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FancyGradient";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0156DC7212CD7BCB2B5376AE1DD5DC4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA398A29880CD0AADCE766D31ABE76B7 /* FancyGradient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF01BECB9D8931E9E73AF396675B3CB9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4ED6C1DA40114A698B78F3C83E8CB51 /* BouncyLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2E09A1B8718F07E85A9C1CB0B44F0DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75D3BC6303613619DB38BC378780A92 /* Pods-BouncyLayout_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BA76AA5DCD34C1E1982EF315C7CFDC52 /* FancyGradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4522890269129EADF8D312B7C631D335 /* Build configuration list for PBXNativeTarget "FancyGradient" */;
+			buildPhases = (
+				0156DC7212CD7BCB2B5376AE1DD5DC4B /* Headers */,
+				A0CBA271EE03FCB0C1606CD220B7A8E4 /* Sources */,
+				A9D2E27847D1FB814880016491912320 /* Frameworks */,
+				A53F10070FC6E6301A7F4AB229869AC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyGradient;
+			productName = FancyGradient;
+			productReference = F98797CD672E189DD9C7E3EB6F829DA2 /* FancyGradient */;
+			productType = "com.apple.product-type.framework";
+		};
+		DDA1BE4A496C959455DA469868E5FCEF /* BouncyLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC4A61AB0E3FAB8640B197FE1B9A46CA /* Build configuration list for PBXNativeTarget "BouncyLayout" */;
+			buildPhases = (
+				CF01BECB9D8931E9E73AF396675B3CB9 /* Headers */,
+				EB87E6550D8E8D0FF60BD5E2B5D94D18 /* Sources */,
+				CB154B3583C1B7AC2E884C316758E82D /* Frameworks */,
+				9267BD53A6119D73F172AA05C7BC81FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BouncyLayout;
+			productName = BouncyLayout;
+			productReference = BAA0E3EC8BE434AC1D05B692681312BC /* BouncyLayout */;
+			productType = "com.apple.product-type.framework";
+		};
+		E83A3CF21DB7917FDB5A8583B8F6CE84 /* Pods-BouncyLayout_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A62122920C0A71237A8A011721EB50C /* Build configuration list for PBXNativeTarget "Pods-BouncyLayout_Example" */;
+			buildPhases = (
+				F2E09A1B8718F07E85A9C1CB0B44F0DA /* Headers */,
+				8B6AD8ADE961BD9056454EB38A77CA89 /* Sources */,
+				96AAF07A7F8BE283A8FC96F6B3173512 /* Frameworks */,
+				983212BA6D529342957C13CD627DB322 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AEB1FD67C1740EB9DA3DBBA3E9C4F87 /* PBXTargetDependency */,
+				4FF9166E9BF4ED5D17FF6881C4452F1E /* PBXTargetDependency */,
+			);
+			name = "Pods-BouncyLayout_Example";
+			productName = Pods_BouncyLayout_Example;
+			productReference = E7B30A094B4ADAC83CB68D3CAD20498C /* Pods-BouncyLayout_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 27643203B2F7C2AC04A15A4FF8355A51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA1BE4A496C959455DA469868E5FCEF /* BouncyLayout */,
+				BA76AA5DCD34C1E1982EF315C7CFDC52 /* FancyGradient */,
+				E83A3CF21DB7917FDB5A8583B8F6CE84 /* Pods-BouncyLayout_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9267BD53A6119D73F172AA05C7BC81FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983212BA6D529342957C13CD627DB322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A53F10070FC6E6301A7F4AB229869AC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B6AD8ADE961BD9056454EB38A77CA89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215EFFB1A184DDC5B182A1387190528E /* Pods-BouncyLayout_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CBA271EE03FCB0C1606CD220B7A8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF71D6F57E690FB607D03FAC132848C5 /* Animationable.swift in Sources */,
+				08359F5CC965575A6606876D106B58FA /* ColorAnimation.swift in Sources */,
+				F6296C384778AE8E4129C287F6E58E39 /* ColorStopsAnimation.swift in Sources */,
+				AE6B4B7E47BE30C63527A045BEC686FB /* CombineAnimation.swift in Sources */,
+				591326942E8DCDFEC77622242BC03012 /* CustomAnimation.swift in Sources */,
+				EC914894E0211D4B1206B69E9EA3D244 /* DirectionAnimation.swift in Sources */,
+				C36D29655B11757446C5157D144C0FEB /* EmptyAnimation.swift in Sources */,
+				FDBBB9F31297EF17000FBBA55662A270 /* FancyGradient-dummy.m in Sources */,
+				787DC5F8E12A7C2D76D345E2EC73F497 /* FancyGradientView.swift in Sources */,
+				3CB260775B401E115147B955227AC21C /* FancyGradientView+Animation.swift in Sources */,
+				BF2C80D1A1D76D9E5A591871CCC2D09A /* FancyGradientView+Model.swift in Sources */,
+				03F9181B168CAB97DD238BAFCB12BA88 /* UIColor+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB87E6550D8E8D0FF60BD5E2B5D94D18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D143882504505BF8A10C4D936E92255B /* BouncyLayout.swift in Sources */,
+				C620DD5E3334C4AE8B37D4493056A321 /* BouncyLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FF9166E9BF4ED5D17FF6881C4452F1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FancyGradient;
+			target = BA76AA5DCD34C1E1982EF315C7CFDC52 /* FancyGradient */;
+			targetProxy = 80A5023B5B501C4DF26FD4093D7F1442 /* PBXContainerItemProxy */;
+		};
+		7AEB1FD67C1740EB9DA3DBBA3E9C4F87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BouncyLayout;
+			target = DDA1BE4A496C959455DA469868E5FCEF /* BouncyLayout */;
+			targetProxy = D8EA48698683897A9C3C9EB3787A096F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		166BAE174D15AAEB27503AF91C719972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A281AC774BDF53CE20FFD0F8DC61A8 /* Pods-BouncyLayout_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BouncyLayout_Example/Pods-BouncyLayout_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BouncyLayout_Example/Pods-BouncyLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4CA5F13E644CEDA79EC3303C616D31E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3E037B7D768A625B0DD0D8A4D149AA /* BouncyLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BouncyLayout/BouncyLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BouncyLayout/BouncyLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BouncyLayout/BouncyLayout.modulemap";
+				PRODUCT_MODULE_NAME = BouncyLayout;
+				PRODUCT_NAME = BouncyLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A4E7EC618AD708A80ED20C280FD3D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9297D7C3DF2C0B1F4EE38248C796555 /* Pods-BouncyLayout_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BouncyLayout_Example/Pods-BouncyLayout_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BouncyLayout_Example/Pods-BouncyLayout_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707BEB6046BD4AC2C0226027CD28D79C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62883155C3F9C03F1FB4BB7C189B6E91 /* BouncyLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BouncyLayout/BouncyLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BouncyLayout/BouncyLayout-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BouncyLayout/BouncyLayout.modulemap";
+				PRODUCT_MODULE_NAME = BouncyLayout;
+				PRODUCT_NAME = BouncyLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C40481D0A4FA7559D1AE7A3FF152EF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91C5FAEF6EA54F82CA9B5B68188F0DA9 /* FancyGradient.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FancyGradient/FancyGradient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FancyGradient/FancyGradient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FancyGradient/FancyGradient.modulemap";
+				PRODUCT_MODULE_NAME = FancyGradient;
+				PRODUCT_NAME = FancyGradient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E41219AADA8E1B766802EB34EC306985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7079B0AA868052E0C4E39D35215193CE /* FancyGradient.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FancyGradient/FancyGradient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FancyGradient/FancyGradient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FancyGradient/FancyGradient.modulemap";
+				PRODUCT_MODULE_NAME = FancyGradient;
+				PRODUCT_NAME = FancyGradient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A62122920C0A71237A8A011721EB50C /* Build configuration list for PBXNativeTarget "Pods-BouncyLayout_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A4E7EC618AD708A80ED20C280FD3D5C /* Debug */,
+				166BAE174D15AAEB27503AF91C719972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4522890269129EADF8D312B7C631D335 /* Build configuration list for PBXNativeTarget "FancyGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41219AADA8E1B766802EB34EC306985 /* Debug */,
+				C40481D0A4FA7559D1AE7A3FF152EF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC4A61AB0E3FAB8640B197FE1B9A46CA /* Build configuration list for PBXNativeTarget "BouncyLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA5F13E644CEDA79EC3303C616D31E0 /* Debug */,
+				707BEB6046BD4AC2C0226027CD28D79C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
