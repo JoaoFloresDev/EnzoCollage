@@ -1,6 +1,0 @@
-framework module FancyGradient {
-  umbrella header "FancyGradient-umbrella.h"
-
-  export *
-  module * { export * }
-}
