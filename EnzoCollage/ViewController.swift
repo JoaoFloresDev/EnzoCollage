@@ -11,7 +11,6 @@ class ViewController: UIViewController {
     lazy var topOffset: [CGFloat] = { (0..<self.numberOfItems).map { _ in CGFloat(arc4random_uniform(250)) } }()
     
     lazy var sizes: [CGSize] = {
-        guard let example = self.example else { return [] }
         
         return (0..<self.numberOfItems).map { _ in
             switch example {
@@ -23,8 +22,6 @@ class ViewController: UIViewController {
     }()
     
     var insets: UIEdgeInsets {
-        guard let example = self.example else { return .zero }
-        
         switch example {
         case .chatMessage: return UIEdgeInsets(top: 200, left: 0, bottom: 200, right: 0)
         case .photosCollection: return UIEdgeInsets(top: 200, left: 0, bottom: 200, right: 0)
@@ -33,8 +30,6 @@ class ViewController: UIViewController {
     }
     
     var additionalInsets: UIEdgeInsets {
-        guard let example = self.example else { return .zero }
-        
         switch example {
         case .chatMessage: return UIEdgeInsets(top: 5, left: 0, bottom: 5, right: 0)
         case .photosCollection: return UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
@@ -71,12 +66,7 @@ class ViewController: UIViewController {
         }
     }
     
-    var example: Example!
-    
-    convenience init(example: Example) {
-        self.init()
-        self.example = example
-    }
+    var example: Example = .photosCollection
     
     override func viewDidLoad() {
         super.viewDidLoad()

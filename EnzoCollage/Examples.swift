@@ -8,7 +8,7 @@ enum Example {
     static let count = 3
     
     func controller() -> ViewController {
-        return ViewController(example: self)
+        return ViewController()
     }
     
     var title: String {
