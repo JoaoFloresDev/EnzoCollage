@@ -4,7 +4,7 @@ import FancyGradient
 
 class ViewController: UIViewController {
     
-    let numberOfItems = 50
+    let numberOfItems = 680
     var randomCellStyle: CellStyle { return arc4random_uniform(10) % 2 == 0 ? .blue : .gray }
     
     lazy var style: [CellStyle] = { (0..<self.numberOfItems).map { _ in self.randomCellStyle } }()
@@ -47,32 +47,20 @@ class ViewController: UIViewController {
         
         let view = UICollectionView(frame: .zero, collectionViewLayout: self.layout)
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.backgroundColor = self.backgroundColor(for: self.example)
         view.showsVerticalScrollIndicator = false
         view.showsHorizontalScrollIndicator = false
         view.delegate = self
         view.dataSource = self
         view.register(Cell.self, forCellWithReuseIdentifier: Cell.reuseIdentifier)
-        
+        view.backgroundColor = UIColor(named: "placeholder")
         return view
     }()
-    
-    func backgroundColor(for example: Example) -> UIColor {
-        
-        switch example {
-        case .chatMessage: return UIColor(red: 0/255, green: 98/255, blue: 239/255, alpha: 1)
-        case .photosCollection: return UIColor(red: 0/255, green: 153/255, blue: 202/255, alpha: 1)
-        case .barGraph: return UIColor(red: 0/255, green: 208/255, blue: 166/255, alpha: 1)
-        }
-    }
     
     var example: Example = .photosCollection
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         title = example.title
-        view.backgroundColor = .white
         view.clipsToBounds = true
         
         collectionView.contentInset = UIEdgeInsets(top: insets.top + additionalInsets.top, left: insets.left + additionalInsets.left, bottom: insets.bottom + additionalInsets.bottom, right: insets.right + additionalInsets.right)
@@ -99,7 +87,9 @@ extension ViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        return collectionView.dequeueReusableCell(withReuseIdentifier: Cell.reuseIdentifier, for: indexPath)
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Cell.reuseIdentifier, for: indexPath) as? Cell
+        cell?.titleLabel.text = "\(indexPath.row)"
+        return cell ?? UICollectionViewCell()
     }
     
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
@@ -119,22 +109,18 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
-        return example == .photosCollection ? 10 : 0
+        return 10
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return example == .photosCollection ? 10 : 0
+        return 10
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath) as? Cell
-        
-//         Animate the colors
-        cell?.fancyView.animate(newColors: [UIColor.lightGray, UIColor.black], duration: 0.5)
-
-        // Animate the direction
-        cell?.fancyView.animate(newDirection: .left, duration: 1)
-        
+        let greenColor = UIColor(named: "darkGreen") ?? UIColor.systemGreen
+        cell?.fancyView.animate(newColors: [greenColor, UIColor.green], duration: 0.5)
+        cell?.titleLabel.textColor = .systemGray5
         print("Click \(indexPath)")
     }
 }

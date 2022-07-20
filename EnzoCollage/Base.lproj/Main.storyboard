@@ -27,7 +27,7 @@
         <!--View Controller-->
         <scene sceneID="k9p-tL-DPA">
             <objects>
-                <viewController id="y4E-V3-yVe" sceneMemberID="viewController">
+                <viewController id="y4E-V3-yVe" customClass="ViewController" customModule="EnzoCollage" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jVx-nh-rJ9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

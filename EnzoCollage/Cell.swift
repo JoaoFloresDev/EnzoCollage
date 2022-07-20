@@ -33,6 +33,11 @@ class Cell: UICollectionViewCell {
     lazy var bottom: NSLayoutConstraint = self.background.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor)
     lazy var right: NSLayoutConstraint = self.background.rightAnchor.constraint(equalTo: self.contentView.rightAnchor)
     
+    lazy var topTitleLabel: NSLayoutConstraint = self.titleLabel.topAnchor.constraint(equalTo: self.contentView.topAnchor)
+    lazy var leftTitleLabel: NSLayoutConstraint = self.titleLabel.leftAnchor.constraint(equalTo: self.contentView.leftAnchor)
+    lazy var bottomTitleLabel: NSLayoutConstraint = self.titleLabel.bottomAnchor.constraint(equalTo: self.contentView.bottomAnchor)
+    lazy var rightTitleLabel: NSLayoutConstraint = self.titleLabel.rightAnchor.constraint(equalTo: self.contentView.rightAnchor)
+    
     func setCell(style: CellStyle, example: Example) {
         background.backgroundColor = style.color(for: example)
         let insets = style.insets(for: example)
@@ -48,9 +53,20 @@ class Cell: UICollectionViewCell {
                                       direction: .down,
                                       type: .axial)
     
-    lazy var background: UIView = {
+    lazy var titleLabel: UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.textAlignment = .center
+        label.textColor = .systemGray
+        label.font = UIFont.boldSystemFont(ofSize: 35)
+        return label
+    }()
+    
+    lazy var background: FancyGradientView = {
         
-        let view = UIView()
+        let view = FancyGradientView(colors: [UIColor.white, UIColor.lightGray],
+                                     direction: .down,
+                                     type: .axial)
         view.translatesAutoresizingMaskIntoConstraints = false
         view.layer.cornerRadius = 15
         view.clipsToBounds = true
@@ -62,7 +78,6 @@ class Cell: UICollectionViewCell {
             NSLayoutConstraint(item: fancyView, attribute: NSLayoutConstraint.Attribute.width, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: NSLayoutConstraint.Attribute.notAnAttribute, multiplier: 1, constant: 100).isActive = true
             NSLayoutConstraint(item: fancyView, attribute: NSLayoutConstraint.Attribute.height, relatedBy: NSLayoutConstraint.Relation.equal, toItem: nil, attribute: NSLayoutConstraint.Attribute.notAnAttribute, multiplier: 1, constant: 100).isActive = true
         
-        fancyView.frame = view.frame
         return view
     }()
     
@@ -75,9 +90,8 @@ class Cell: UICollectionViewCell {
         
         contentView.backgroundColor = nil
         contentView.addSubview(background)
-        
+        contentView.addSubview(titleLabel)
         NSLayoutConstraint.activate([top, left, bottom, right])
-        
-        
+        NSLayoutConstraint.activate([topTitleLabel, leftTitleLabel, bottomTitleLabel, rightTitleLabel])
     }
 }
