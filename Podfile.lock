@@ -1,0 +1,20 @@
+PODS:
+  - BouncyLayout (2.3.0)
+  - FancyGradient (1.0.2)
+
+DEPENDENCIES:
+  - BouncyLayout
+  - FancyGradient
+
+SPEC REPOS:
+  trunk:
+    - BouncyLayout
+    - FancyGradient
+
+SPEC CHECKSUMS:
+  BouncyLayout: 946047ef4987959bc107731c665ca4fdcdef5e17
+  FancyGradient: 9b3f13b2ccf66abc40417cd4c4c1d625ddb07478
+
+PODFILE CHECKSUM: 6c8d31c5d02671606c8a7ac53663c0737b7ff352
+
+COCOAPODS: 1.11.2

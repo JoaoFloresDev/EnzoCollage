@@ -1,0 +1,6 @@
+framework module Pods_EnzoCollageTests {
+  umbrella header "Pods-EnzoCollageTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

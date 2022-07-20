@@ -1,0 +1,6 @@
+module Pods_EnzoCollage {
+  umbrella header "Pods-EnzoCollage-umbrella.h"
+
+  export *
+  module * { export * }
+}

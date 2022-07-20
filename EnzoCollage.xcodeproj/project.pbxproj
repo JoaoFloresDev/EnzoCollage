@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D79928D08D4CA371190B4A9 /* libPods-EnzoCollage-EnzoCollageUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 921245F65F5B109FA0769DF6 /* libPods-EnzoCollage-EnzoCollageUITests.a */; };
 		7313ABA928877AF300D0CCFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABA828877AF300D0CCFE /* AppDelegate.swift */; };
 		7313ABAB28877AF300D0CCFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABAA28877AF300D0CCFE /* SceneDelegate.swift */; };
-		7313ABAD28877AF300D0CCFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABAC28877AF300D0CCFE /* ViewController.swift */; };
+		7313ABAD28877AF300D0CCFE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABAC28877AF300D0CCFE /* ViewController2.swift */; };
 		7313ABB028877AF300D0CCFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7313ABAE28877AF300D0CCFE /* Main.storyboard */; };
 		7313ABB228877AF600D0CCFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7313ABB128877AF600D0CCFE /* Assets.xcassets */; };
 		7313ABB528877AF600D0CCFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7313ABB328877AF600D0CCFE /* LaunchScreen.storyboard */; };
 		7313ABC028877AF700D0CCFE /* EnzoCollageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABBF28877AF700D0CCFE /* EnzoCollageTests.swift */; };
 		7313ABCA28877AF700D0CCFE /* EnzoCollageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABC928877AF700D0CCFE /* EnzoCollageUITests.swift */; };
 		7313ABCC28877AF700D0CCFE /* EnzoCollageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABCB28877AF700D0CCFE /* EnzoCollageUITestsLaunchTests.swift */; };
+		7313ABD928877B6600D0CCFE /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABD828877B6600D0CCFE /* Cell.swift */; };
+		7313ABDB28877B6C00D0CCFE /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABDA28877B6C00D0CCFE /* Examples.swift */; };
+		7313ABDD28877B8300D0CCFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7313ABDC28877B8200D0CCFE /* ViewController.swift */; };
+		BF1740F9F052AE68BBB0E1CA /* libPods-EnzoCollage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 222C1581AB81A7403C4E3E19 /* libPods-EnzoCollage.a */; };
+		EBB8DC579372BBD4B6FDA76D /* libPods-EnzoCollageTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B580734E9B4ACD2725ADF2E2 /* libPods-EnzoCollageTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BF8CB85140CE6AEF4C7CA46 /* Pods-EnzoCollageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnzoCollageTests.debug.xcconfig"; path = "Target Support Files/Pods-EnzoCollageTests/Pods-EnzoCollageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		222C1581AB81A7403C4E3E19 /* libPods-EnzoCollage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnzoCollage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31662AFAC3D79C4199232D39 /* Pods-EnzoCollageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnzoCollageTests.release.xcconfig"; path = "Target Support Files/Pods-EnzoCollageTests/Pods-EnzoCollageTests.release.xcconfig"; sourceTree = "<group>"; };
+		42B111F725B8E360EE20C189 /* Pods-EnzoCollage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnzoCollage.debug.xcconfig"; path = "Target Support Files/Pods-EnzoCollage/Pods-EnzoCollage.debug.xcconfig"; sourceTree = "<group>"; };
+		5473CE5888BDB64D2742989C /* Pods-EnzoCollage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnzoCollage.release.xcconfig"; path = "Target Support Files/Pods-EnzoCollage/Pods-EnzoCollage.release.xcconfig"; sourceTree = "<group>"; };
 		7313ABA528877AF300D0CCFE /* EnzoCollage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnzoCollage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7313ABA828877AF300D0CCFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7313ABAA28877AF300D0CCFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7313ABAC28877AF300D0CCFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7313ABAC28877AF300D0CCFE /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		7313ABAF28877AF300D0CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7313ABB128877AF600D0CCFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7313ABB428877AF600D0CCFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,13 @@
 		7313ABC528877AF700D0CCFE /* EnzoCollageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EnzoCollageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7313ABC928877AF700D0CCFE /* EnzoCollageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnzoCollageUITests.swift; sourceTree = "<group>"; };
 		7313ABCB28877AF700D0CCFE /* EnzoCollageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnzoCollageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7313ABD828877B6600D0CCFE /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		7313ABDA28877B6C00D0CCFE /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		7313ABDC28877B8200D0CCFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		921245F65F5B109FA0769DF6 /* libPods-EnzoCollage-EnzoCollageUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnzoCollage-EnzoCollageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5FAEDBE1CE97684B60086D3 /* Pods-EnzoCollage-EnzoCollageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnzoCollage-EnzoCollageUITests.release.xcconfig"; path = "Target Support Files/Pods-EnzoCollage-EnzoCollageUITests/Pods-EnzoCollage-EnzoCollageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B580734E9B4ACD2725ADF2E2 /* libPods-EnzoCollageTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EnzoCollageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3C2D52650923AC9927DB550 /* Pods-EnzoCollage-EnzoCollageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnzoCollage-EnzoCollageUITests.debug.xcconfig"; path = "Target Support Files/Pods-EnzoCollage-EnzoCollageUITests/Pods-EnzoCollage-EnzoCollageUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF1740F9F052AE68BBB0E1CA /* libPods-EnzoCollage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB8DC579372BBD4B6FDA76D /* libPods-EnzoCollageTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D79928D08D4CA371190B4A9 /* libPods-EnzoCollage-EnzoCollageUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31CBECDF2F0006087DA39834 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42B111F725B8E360EE20C189 /* Pods-EnzoCollage.debug.xcconfig */,
+				5473CE5888BDB64D2742989C /* Pods-EnzoCollage.release.xcconfig */,
+				F3C2D52650923AC9927DB550 /* Pods-EnzoCollage-EnzoCollageUITests.debug.xcconfig */,
+				A5FAEDBE1CE97684B60086D3 /* Pods-EnzoCollage-EnzoCollageUITests.release.xcconfig */,
+				0BF8CB85140CE6AEF4C7CA46 /* Pods-EnzoCollageTests.debug.xcconfig */,
+				31662AFAC3D79C4199232D39 /* Pods-EnzoCollageTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7313AB9C28877AF300D0CCFE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +117,8 @@
 				7313ABBE28877AF700D0CCFE /* EnzoCollageTests */,
 				7313ABC828877AF700D0CCFE /* EnzoCollageUITests */,
 				7313ABA628877AF300D0CCFE /* Products */,
+				31CBECDF2F0006087DA39834 /* Pods */,
+				DAC33AE30424CF191618E6E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +137,10 @@
 			children = (
 				7313ABA828877AF300D0CCFE /* AppDelegate.swift */,
 				7313ABAA28877AF300D0CCFE /* SceneDelegate.swift */,
-				7313ABAC28877AF300D0CCFE /* ViewController.swift */,
+				7313ABDA28877B6C00D0CCFE /* Examples.swift */,
+				7313ABD828877B6600D0CCFE /* Cell.swift */,
+				7313ABDC28877B8200D0CCFE /* ViewController.swift */,
+				7313ABAC28877AF300D0CCFE /* ViewController2.swift */,
 				7313ABAE28877AF300D0CCFE /* Main.storyboard */,
 				7313ABB128877AF600D0CCFE /* Assets.xcassets */,
 				7313ABB328877AF600D0CCFE /* LaunchScreen.storyboard */,
@@ -127,6 +166,16 @@
 			path = EnzoCollageUITests;
 			sourceTree = "<group>";
 		};
+		DAC33AE30424CF191618E6E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				222C1581AB81A7403C4E3E19 /* libPods-EnzoCollage.a */,
+				921245F65F5B109FA0769DF6 /* libPods-EnzoCollage-EnzoCollageUITests.a */,
+				B580734E9B4ACD2725ADF2E2 /* libPods-EnzoCollageTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7313ABCF28877AF700D0CCFE /* Build configuration list for PBXNativeTarget "EnzoCollage" */;
 			buildPhases = (
+				6B3163D07BA382C2D5B4A0D6 /* [CP] Check Pods Manifest.lock */,
 				7313ABA128877AF300D0CCFE /* Sources */,
 				7313ABA228877AF300D0CCFE /* Frameworks */,
 				7313ABA328877AF300D0CCFE /* Resources */,
@@ -151,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7313ABD228877AF700D0CCFE /* Build configuration list for PBXNativeTarget "EnzoCollageTests" */;
 			buildPhases = (
+				5A62477DB33443DF6781FBB4 /* [CP] Check Pods Manifest.lock */,
 				7313ABB728877AF700D0CCFE /* Sources */,
 				7313ABB828877AF700D0CCFE /* Frameworks */,
 				7313ABB928877AF700D0CCFE /* Resources */,
@@ -169,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7313ABD528877AF700D0CCFE /* Build configuration list for PBXNativeTarget "EnzoCollageUITests" */;
 			buildPhases = (
+				FA9C5804D89AC67258D5C580 /* [CP] Check Pods Manifest.lock */,
 				7313ABC128877AF700D0CCFE /* Sources */,
 				7313ABC228877AF700D0CCFE /* Frameworks */,
 				7313ABC328877AF700D0CCFE /* Resources */,
@@ -253,13 +305,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A62477DB33443DF6781FBB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnzoCollageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B3163D07BA382C2D5B4A0D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnzoCollage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9C5804D89AC67258D5C580 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnzoCollage-EnzoCollageUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7313ABA128877AF300D0CCFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7313ABAD28877AF300D0CCFE /* ViewController.swift in Sources */,
+				7313ABDD28877B8300D0CCFE /* ViewController.swift in Sources */,
+				7313ABAD28877AF300D0CCFE /* ViewController2.swift in Sources */,
+				7313ABD928877B6600D0CCFE /* Cell.swift in Sources */,
 				7313ABA928877AF300D0CCFE /* AppDelegate.swift in Sources */,
+				7313ABDB28877B6C00D0CCFE /* Examples.swift in Sources */,
 				7313ABAB28877AF300D0CCFE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +558,7 @@
 		};
 		7313ABD028877AF700D0CCFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B111F725B8E360EE20C189 /* Pods-EnzoCollage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +587,7 @@
 		};
 		7313ABD128877AF700D0CCFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5473CE5888BDB64D2742989C /* Pods-EnzoCollage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +616,7 @@
 		};
 		7313ABD328877AF700D0CCFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BF8CB85140CE6AEF4C7CA46 /* Pods-EnzoCollageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +642,7 @@
 		};
 		7313ABD428877AF700D0CCFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31662AFAC3D79C4199232D39 /* Pods-EnzoCollageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +668,7 @@
 		};
 		7313ABD628877AF700D0CCFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3C2D52650923AC9927DB550 /* Pods-EnzoCollage-EnzoCollageUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +692,7 @@
 		};
 		7313ABD728877AF700D0CCFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5FAEDBE1CE97684B60086D3 /* Pods-EnzoCollage-EnzoCollageUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

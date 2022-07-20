@@ -1,0 +1,1039 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AC399B56E722F5D7DA9800A71F1ED83 /* FancyGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353F807F3AE1F7F2E602475E75872023 /* FancyGradientView.swift */; };
+		27F783DB2C624FA0D475CE2F5FFFD03E /* BouncyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E18754758C45B85090BE78F219E5E4 /* BouncyLayout-dummy.m */; };
+		303EC73456B930EA30AFC9A81C1A3B58 /* Pods-EnzoCollage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DF21DC9B427650A1C83F3284853542 /* Pods-EnzoCollage-dummy.m */; };
+		315DDD05BD0E8FA8C81D2AFF925880C5 /* FancyGradient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B51139BE6063FB8328DE7E8862BC4F8 /* FancyGradient-dummy.m */; };
+		5194F3FB5E00173136E07BCA27DD7E64 /* Pods-EnzoCollage-EnzoCollageUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3C04FD7A4331060D5C9419640B4C3B /* Pods-EnzoCollage-EnzoCollageUITests-dummy.m */; };
+		5C0F7B3552DE9CB806BCD0D19659A0FA /* FancyGradientView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C219E1A1E595AD73812E4D8DE7BBF8 /* FancyGradientView+Animation.swift */; };
+		6AEE0A449433F29A191727FB3418CFA7 /* BouncyLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1873E352D6255773585139F98EE88528 /* BouncyLayout-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		788C546D661FD6E1A9196B84E6772CC9 /* DirectionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F71F14DBD401AE0CB16A18E84B6D53C /* DirectionAnimation.swift */; };
+		7B55319F32C26EDDC40B6AF5D1BFB289 /* BouncyLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128C68335FF50692E8A1929541A74131 /* BouncyLayout.swift */; };
+		7DC5B70E99EF91CAC6ECEC3BEA104F7D /* Pods-EnzoCollageTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD33020147F2953B9F91682363B14099 /* Pods-EnzoCollageTests-dummy.m */; };
+		840F4F0E55FCDE3E36B64DE8B6D706E9 /* CustomAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5BE41169D2D0EA306136155EB9527A /* CustomAnimation.swift */; };
+		8BA98CE2533238535D2B9A39A0F005D6 /* Animationable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924A71A26223BA85EFB0B55878A5D199 /* Animationable.swift */; };
+		8BBF59D684C6E3089FF21F7C7D640B09 /* FancyGradientView+Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5A0FC565FCBA75A5D666DFFA5A4BD9 /* FancyGradientView+Model.swift */; };
+		947FA986C1D80AB9BFD868FA6CD08164 /* EmptyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0BB8A1AD4613B3817514DA123917B0 /* EmptyAnimation.swift */; };
+		A273ABF74CC7A15AB9D3AA734745834C /* FancyGradient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 541F2D646D4425217A4A391A7B817105 /* FancyGradient-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AC8987351A815E66488E06E1F0DA9E7D /* CombineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A77D4615B82545CCB1E0F6D0166ABBF /* CombineAnimation.swift */; };
+		B144BB7152A2F3E4826E1D79DB1B9BD6 /* ColorStopsAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E807DAC2780E2BD131E8940FD77CDC8 /* ColorStopsAnimation.swift */; };
+		BD120AF03217DDCEB6964C8086811DFF /* Pods-EnzoCollage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F488F215BD92116D8D9593DE99AD17F7 /* Pods-EnzoCollage-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CDDBB7FEB387366E5B3CC5E23F6EFE19 /* ColorAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F07C42813AF0641BD7FB7D8C04A853 /* ColorAnimation.swift */; };
+		E5BD6DDC717B72B32B50F63846B6EBE1 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92645F250F7E1C898EA9B5C009D809DD /* UIColor+Extensions.swift */; };
+		F9F9FEFDBFB3106238D589A7EF3FA999 /* Pods-EnzoCollage-EnzoCollageUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B008603AD2BE8712F157DF847EC449AE /* Pods-EnzoCollage-EnzoCollageUITests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		068ADBE366E1E199E8DC6D66064B43B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA1BE4A496C959455DA469868E5FCEF;
+			remoteInfo = BouncyLayout;
+		};
+		22D6CB719E62FE9B8D59204B6C717C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA76AA5DCD34C1E1982EF315C7CFDC52;
+			remoteInfo = FancyGradient;
+		};
+		6C45E1EE9DC5F11E045F1772ABFF86C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56D7C03920EF45FC4E9EA4084CE7E720;
+			remoteInfo = "Pods-EnzoCollage";
+		};
+		76DDD020E75FF3EE65CE13D4E1A72670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA76AA5DCD34C1E1982EF315C7CFDC52;
+			remoteInfo = FancyGradient;
+		};
+		A3CE29C3023E18165F10F1967CE9B95B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDA1BE4A496C959455DA469868E5FCEF;
+			remoteInfo = BouncyLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		128C68335FF50692E8A1929541A74131 /* BouncyLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BouncyLayout.swift; path = BouncyLayout/Classes/BouncyLayout.swift; sourceTree = "<group>"; };
+		1873E352D6255773585139F98EE88528 /* BouncyLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BouncyLayout-umbrella.h"; sourceTree = "<group>"; };
+		18F76D9B9678117566A455C7090970AE /* Pods-EnzoCollage-EnzoCollageUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnzoCollage-EnzoCollageUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1F71F14DBD401AE0CB16A18E84B6D53C /* DirectionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectionAnimation.swift; path = Sources/FancyGradient/DirectionAnimation.swift; sourceTree = "<group>"; };
+		27C5D9445F262FE87DF048BFDCC75DF1 /* Pods-EnzoCollage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnzoCollage-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2A5BE41169D2D0EA306136155EB9527A /* CustomAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomAnimation.swift; path = Sources/FancyGradient/CustomAnimation.swift; sourceTree = "<group>"; };
+		33CDE28BB00601A81083C812E06B3306 /* Pods-EnzoCollage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnzoCollage.release.xcconfig"; sourceTree = "<group>"; };
+		353F807F3AE1F7F2E602475E75872023 /* FancyGradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FancyGradientView.swift; path = Sources/FancyGradient/FancyGradientView.swift; sourceTree = "<group>"; };
+		3B51139BE6063FB8328DE7E8862BC4F8 /* FancyGradient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FancyGradient-dummy.m"; sourceTree = "<group>"; };
+		3DAF7BE66566136C227354D82AA34657 /* Pods-EnzoCollage-EnzoCollageUITests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-EnzoCollage-EnzoCollageUITests"; path = "libPods-EnzoCollage-EnzoCollageUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		432043BBEC72FB9A783E6E98D411EE25 /* Pods-EnzoCollage-EnzoCollageUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnzoCollage-EnzoCollageUITests.modulemap"; sourceTree = "<group>"; };
+		45A8F59D2FC0E83B0B5F6F68F24AC29C /* FancyGradient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FancyGradient.release.xcconfig; sourceTree = "<group>"; };
+		4A77D4615B82545CCB1E0F6D0166ABBF /* CombineAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineAnimation.swift; path = Sources/FancyGradient/CombineAnimation.swift; sourceTree = "<group>"; };
+		4D2F9173E6E8310D2EAC62030F58C904 /* Pods-EnzoCollageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnzoCollageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		541F2D646D4425217A4A391A7B817105 /* FancyGradient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FancyGradient-umbrella.h"; sourceTree = "<group>"; };
+		60DF21DC9B427650A1C83F3284853542 /* Pods-EnzoCollage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnzoCollage-dummy.m"; sourceTree = "<group>"; };
+		6B211F95C9BA112C281D60C04503C53B /* FancyGradient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FancyGradient.debug.xcconfig; sourceTree = "<group>"; };
+		6E807DAC2780E2BD131E8940FD77CDC8 /* ColorStopsAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorStopsAnimation.swift; path = Sources/FancyGradient/ColorStopsAnimation.swift; sourceTree = "<group>"; };
+		757C31241AC7D56205CE51A796761616 /* Pods-EnzoCollageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnzoCollageTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D218D4C39D59A09A3E33BFF09F76A54 /* Pods-EnzoCollage-EnzoCollageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnzoCollage-EnzoCollageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8B0BB8A1AD4613B3817514DA123917B0 /* EmptyAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmptyAnimation.swift; path = Sources/FancyGradient/EmptyAnimation.swift; sourceTree = "<group>"; };
+		8BF4DEBDF8081AA6C879B703BE5FCE59 /* FancyGradient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FancyGradient.modulemap; sourceTree = "<group>"; };
+		8E8F04B9D2E0975F457C24FC8E0DA215 /* Pods-EnzoCollageTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnzoCollageTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		924A71A26223BA85EFB0B55878A5D199 /* Animationable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animationable.swift; path = Sources/FancyGradient/Animationable.swift; sourceTree = "<group>"; };
+		92645F250F7E1C898EA9B5C009D809DD /* UIColor+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Extensions.swift"; path = "Sources/FancyGradient/UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		976AB52143F1814725CF722A207D0902 /* Pods-EnzoCollage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EnzoCollage-acknowledgements.plist"; sourceTree = "<group>"; };
+		98E18754758C45B85090BE78F219E5E4 /* BouncyLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BouncyLayout-dummy.m"; sourceTree = "<group>"; };
+		9BD302D34FB1E423DFEC3A2160DAECA5 /* BouncyLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BouncyLayout.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E5A0FC565FCBA75A5D666DFFA5A4BD9 /* FancyGradientView+Model.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FancyGradientView+Model.swift"; path = "Sources/FancyGradient/FancyGradientView+Model.swift"; sourceTree = "<group>"; };
+		A261202FE959847AEE30E23EE485CD58 /* BouncyLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BouncyLayout-prefix.pch"; sourceTree = "<group>"; };
+		B008603AD2BE8712F157DF847EC449AE /* Pods-EnzoCollage-EnzoCollageUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnzoCollage-EnzoCollageUITests-umbrella.h"; sourceTree = "<group>"; };
+		B6C219E1A1E595AD73812E4D8DE7BBF8 /* FancyGradientView+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FancyGradientView+Animation.swift"; path = "Sources/FancyGradient/FancyGradientView+Animation.swift"; sourceTree = "<group>"; };
+		BAA0E3EC8BE434AC1D05B692681312BC /* BouncyLayout */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BouncyLayout; path = libBouncyLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBEC60E5F0E8AD56EAE68811D7DE5A5A /* Pods-EnzoCollageTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnzoCollageTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BDDAD71DF54109997E9D863C30080EF4 /* Pods-EnzoCollage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnzoCollage.debug.xcconfig"; sourceTree = "<group>"; };
+		C396B3CF337D3D455F32F6F9DB409D6C /* Pods-EnzoCollage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-EnzoCollage"; path = "libPods-EnzoCollage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F07C42813AF0641BD7FB7D8C04A853 /* ColorAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorAnimation.swift; path = Sources/FancyGradient/ColorAnimation.swift; sourceTree = "<group>"; };
+		D73D25A007FC6F40BFCD4F6E3F4A14D3 /* BouncyLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BouncyLayout.debug.xcconfig; sourceTree = "<group>"; };
+		D9BE15A14F3549437488D2F66337E5E6 /* Pods-EnzoCollageTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-EnzoCollageTests"; path = "libPods-EnzoCollageTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1D0CA5AEAF777C64D075512BDBA08A2 /* Pods-EnzoCollage-EnzoCollageUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EnzoCollage-EnzoCollageUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E2C98513B9F157335608454AF609F2B2 /* BouncyLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BouncyLayout.modulemap; sourceTree = "<group>"; };
+		E817EF2C7EDDD8A077DD4A042E5A83D8 /* FancyGradient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FancyGradient-prefix.pch"; sourceTree = "<group>"; };
+		F488F215BD92116D8D9593DE99AD17F7 /* Pods-EnzoCollage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EnzoCollage-umbrella.h"; sourceTree = "<group>"; };
+		F7544B8B630F8A070FDFF80B432509CC /* Pods-EnzoCollage-EnzoCollageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EnzoCollage-EnzoCollageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F837FF7682C3511D799CD53EFBB88FF9 /* Pods-EnzoCollage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EnzoCollage.modulemap"; sourceTree = "<group>"; };
+		F98797CD672E189DD9C7E3EB6F829DA2 /* FancyGradient */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = FancyGradient; path = libFancyGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD33020147F2953B9F91682363B14099 /* Pods-EnzoCollageTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnzoCollageTests-dummy.m"; sourceTree = "<group>"; };
+		FF3C04FD7A4331060D5C9419640B4C3B /* Pods-EnzoCollage-EnzoCollageUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EnzoCollage-EnzoCollageUITests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B8781B13BFF1D379DD46B7226BCC757 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42450D03E6F0B5E97A80F4B07B73EBBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C0BCE906AE4F4A45698EDA4114E9D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3A815812F58A0E883DD73C730CDCDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE6F0ED04F3FB0303D8CF2180FC488C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FDE350E8E662D2850F559FD4E32106A /* Pods-EnzoCollage */ = {
+			isa = PBXGroup;
+			children = (
+				F837FF7682C3511D799CD53EFBB88FF9 /* Pods-EnzoCollage.modulemap */,
+				27C5D9445F262FE87DF048BFDCC75DF1 /* Pods-EnzoCollage-acknowledgements.markdown */,
+				976AB52143F1814725CF722A207D0902 /* Pods-EnzoCollage-acknowledgements.plist */,
+				60DF21DC9B427650A1C83F3284853542 /* Pods-EnzoCollage-dummy.m */,
+				F488F215BD92116D8D9593DE99AD17F7 /* Pods-EnzoCollage-umbrella.h */,
+				BDDAD71DF54109997E9D863C30080EF4 /* Pods-EnzoCollage.debug.xcconfig */,
+				33CDE28BB00601A81083C812E06B3306 /* Pods-EnzoCollage.release.xcconfig */,
+			);
+			name = "Pods-EnzoCollage";
+			path = "Target Support Files/Pods-EnzoCollage";
+			sourceTree = "<group>";
+		};
+		344897D3E0BD123711F1A14997308D26 /* Pods-EnzoCollageTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBEC60E5F0E8AD56EAE68811D7DE5A5A /* Pods-EnzoCollageTests-acknowledgements.markdown */,
+				8E8F04B9D2E0975F457C24FC8E0DA215 /* Pods-EnzoCollageTests-acknowledgements.plist */,
+				FD33020147F2953B9F91682363B14099 /* Pods-EnzoCollageTests-dummy.m */,
+				4D2F9173E6E8310D2EAC62030F58C904 /* Pods-EnzoCollageTests.debug.xcconfig */,
+				757C31241AC7D56205CE51A796761616 /* Pods-EnzoCollageTests.release.xcconfig */,
+			);
+			name = "Pods-EnzoCollageTests";
+			path = "Target Support Files/Pods-EnzoCollageTests";
+			sourceTree = "<group>";
+		};
+		59BEE8FF6BCDC342959950536573B5F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF4DEBDF8081AA6C879B703BE5FCE59 /* FancyGradient.modulemap */,
+				3B51139BE6063FB8328DE7E8862BC4F8 /* FancyGradient-dummy.m */,
+				E817EF2C7EDDD8A077DD4A042E5A83D8 /* FancyGradient-prefix.pch */,
+				541F2D646D4425217A4A391A7B817105 /* FancyGradient-umbrella.h */,
+				6B211F95C9BA112C281D60C04503C53B /* FancyGradient.debug.xcconfig */,
+				45A8F59D2FC0E83B0B5F6F68F24AC29C /* FancyGradient.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FancyGradient";
+			sourceTree = "<group>";
+		};
+		5B36BA26802FF701FC6666183D061325 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2C98513B9F157335608454AF609F2B2 /* BouncyLayout.modulemap */,
+				98E18754758C45B85090BE78F219E5E4 /* BouncyLayout-dummy.m */,
+				A261202FE959847AEE30E23EE485CD58 /* BouncyLayout-prefix.pch */,
+				1873E352D6255773585139F98EE88528 /* BouncyLayout-umbrella.h */,
+				D73D25A007FC6F40BFCD4F6E3F4A14D3 /* BouncyLayout.debug.xcconfig */,
+				9BD302D34FB1E423DFEC3A2160DAECA5 /* BouncyLayout.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BouncyLayout";
+			sourceTree = "<group>";
+		};
+		640C1B35CC63A2F478FC576B4EC75EE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAA0E3EC8BE434AC1D05B692681312BC /* BouncyLayout */,
+				F98797CD672E189DD9C7E3EB6F829DA2 /* FancyGradient */,
+				C396B3CF337D3D455F32F6F9DB409D6C /* Pods-EnzoCollage */,
+				3DAF7BE66566136C227354D82AA34657 /* Pods-EnzoCollage-EnzoCollageUITests */,
+				D9BE15A14F3549437488D2F66337E5E6 /* Pods-EnzoCollageTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		694C2FBDA77809A040DE9683DA32254B /* BouncyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				128C68335FF50692E8A1929541A74131 /* BouncyLayout.swift */,
+				5B36BA26802FF701FC6666183D061325 /* Support Files */,
+			);
+			name = BouncyLayout;
+			path = BouncyLayout;
+			sourceTree = "<group>";
+		};
+		8E47D736E3471A81043E92584FF992A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				694C2FBDA77809A040DE9683DA32254B /* BouncyLayout */,
+				BB7BF0BE4D47C992D0BCAE44C0AFF6DC /* FancyGradient */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB7BF0BE4D47C992D0BCAE44C0AFF6DC /* FancyGradient */ = {
+			isa = PBXGroup;
+			children = (
+				924A71A26223BA85EFB0B55878A5D199 /* Animationable.swift */,
+				C3F07C42813AF0641BD7FB7D8C04A853 /* ColorAnimation.swift */,
+				6E807DAC2780E2BD131E8940FD77CDC8 /* ColorStopsAnimation.swift */,
+				4A77D4615B82545CCB1E0F6D0166ABBF /* CombineAnimation.swift */,
+				2A5BE41169D2D0EA306136155EB9527A /* CustomAnimation.swift */,
+				1F71F14DBD401AE0CB16A18E84B6D53C /* DirectionAnimation.swift */,
+				8B0BB8A1AD4613B3817514DA123917B0 /* EmptyAnimation.swift */,
+				353F807F3AE1F7F2E602475E75872023 /* FancyGradientView.swift */,
+				B6C219E1A1E595AD73812E4D8DE7BBF8 /* FancyGradientView+Animation.swift */,
+				9E5A0FC565FCBA75A5D666DFFA5A4BD9 /* FancyGradientView+Model.swift */,
+				92645F250F7E1C898EA9B5C009D809DD /* UIColor+Extensions.swift */,
+				59BEE8FF6BCDC342959950536573B5F7 /* Support Files */,
+			);
+			name = FancyGradient;
+			path = FancyGradient;
+			sourceTree = "<group>";
+		};
+		C0F18B2B0E57DDF8B6E9B8D145B2DB47 /* Pods-EnzoCollage-EnzoCollageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				432043BBEC72FB9A783E6E98D411EE25 /* Pods-EnzoCollage-EnzoCollageUITests.modulemap */,
+				E1D0CA5AEAF777C64D075512BDBA08A2 /* Pods-EnzoCollage-EnzoCollageUITests-acknowledgements.markdown */,
+				18F76D9B9678117566A455C7090970AE /* Pods-EnzoCollage-EnzoCollageUITests-acknowledgements.plist */,
+				FF3C04FD7A4331060D5C9419640B4C3B /* Pods-EnzoCollage-EnzoCollageUITests-dummy.m */,
+				B008603AD2BE8712F157DF847EC449AE /* Pods-EnzoCollage-EnzoCollageUITests-umbrella.h */,
+				F7544B8B630F8A070FDFF80B432509CC /* Pods-EnzoCollage-EnzoCollageUITests.debug.xcconfig */,
+				7D218D4C39D59A09A3E33BFF09F76A54 /* Pods-EnzoCollage-EnzoCollageUITests.release.xcconfig */,
+			);
+			name = "Pods-EnzoCollage-EnzoCollageUITests";
+			path = "Target Support Files/Pods-EnzoCollage-EnzoCollageUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				8E47D736E3471A81043E92584FF992A6 /* Pods */,
+				640C1B35CC63A2F478FC576B4EC75EE1 /* Products */,
+				E8B375D70984FE10CE919A1DB9CC89DE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8B375D70984FE10CE919A1DB9CC89DE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FDE350E8E662D2850F559FD4E32106A /* Pods-EnzoCollage */,
+				C0F18B2B0E57DDF8B6E9B8D145B2DB47 /* Pods-EnzoCollage-EnzoCollageUITests */,
+				344897D3E0BD123711F1A14997308D26 /* Pods-EnzoCollageTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32DD245407BDAB541F0908C1E8EA3FA0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEDA0F65E3B5E405A804F414508AED8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A273ABF74CC7A15AB9D3AA734745834C /* FancyGradient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF5F73BFFB5B9FF5A7A031ECA85E013A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AEE0A449433F29A191727FB3418CFA7 /* BouncyLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFBEA055295BD6A18830402527D60FD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F9FEFDBFB3106238D589A7EF3FA999 /* Pods-EnzoCollage-EnzoCollageUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4621893ECF42A0A22BB61CE932FBDD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD120AF03217DDCEB6964C8086811DFF /* Pods-EnzoCollage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4202E19D5E15B1A3EE7903A6C15B0F28 /* Pods-EnzoCollageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 593864A9D38B83801B83D0EE5E2C363E /* Build configuration list for PBXNativeTarget "Pods-EnzoCollageTests" */;
+			buildPhases = (
+				32DD245407BDAB541F0908C1E8EA3FA0 /* Headers */,
+				DD49CE62DAB64C96BABBB5B47E4ABC87 /* Sources */,
+				42450D03E6F0B5E97A80F4B07B73EBBF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81E6D8F6B50ACB94A340856D70DF4AFB /* PBXTargetDependency */,
+			);
+			name = "Pods-EnzoCollageTests";
+			productName = "Pods-EnzoCollageTests";
+			productReference = D9BE15A14F3549437488D2F66337E5E6 /* Pods-EnzoCollageTests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		56D7C03920EF45FC4E9EA4084CE7E720 /* Pods-EnzoCollage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8392EB1C3E274A91C3141C3BA3164CC /* Build configuration list for PBXNativeTarget "Pods-EnzoCollage" */;
+			buildPhases = (
+				F4621893ECF42A0A22BB61CE932FBDD0 /* Headers */,
+				628727EFC0889E0A8935EEC49B5BBEB1 /* Sources */,
+				2B8781B13BFF1D379DD46B7226BCC757 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BCCD60715E803F9E2AC38B028D6B9F /* PBXTargetDependency */,
+				4F393040CD2EFC5A817FDEF7355E2943 /* PBXTargetDependency */,
+			);
+			name = "Pods-EnzoCollage";
+			productName = "Pods-EnzoCollage";
+			productReference = C396B3CF337D3D455F32F6F9DB409D6C /* Pods-EnzoCollage */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA76AA5DCD34C1E1982EF315C7CFDC52 /* FancyGradient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C763EF0CD0C775C4769E51E77BA47DF /* Build configuration list for PBXNativeTarget "FancyGradient" */;
+			buildPhases = (
+				6DEDA0F65E3B5E405A804F414508AED8 /* Headers */,
+				5E4C39723B8049D1ACAD6EB56DD1D0E8 /* Sources */,
+				EDE6F0ED04F3FB0303D8CF2180FC488C /* Frameworks */,
+				BFDE8E176302FE6C0615F022D2735F30 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FancyGradient;
+			productName = FancyGradient;
+			productReference = F98797CD672E189DD9C7E3EB6F829DA2 /* FancyGradient */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCC2830A1C7F120DBA942CD944EA72F9 /* Pods-EnzoCollage-EnzoCollageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C86FD2CB68A5C7491DFC7FBB988172B /* Build configuration list for PBXNativeTarget "Pods-EnzoCollage-EnzoCollageUITests" */;
+			buildPhases = (
+				BFBEA055295BD6A18830402527D60FD8 /* Headers */,
+				D13B91D53AD1449E64DB34D3AE37D358 /* Sources */,
+				74C0BCE906AE4F4A45698EDA4114E9D5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49123EBBDD9CA2EB809F32D30822BDF2 /* PBXTargetDependency */,
+				B6538EF53A76315CB8969F46E7B5C80C /* PBXTargetDependency */,
+			);
+			name = "Pods-EnzoCollage-EnzoCollageUITests";
+			productName = "Pods-EnzoCollage-EnzoCollageUITests";
+			productReference = 3DAF7BE66566136C227354D82AA34657 /* Pods-EnzoCollage-EnzoCollageUITests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DDA1BE4A496C959455DA469868E5FCEF /* BouncyLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3467A68C41705B18F9DAF904DFDCD49 /* Build configuration list for PBXNativeTarget "BouncyLayout" */;
+			buildPhases = (
+				AF5F73BFFB5B9FF5A7A031ECA85E013A /* Headers */,
+				947C43D5DD26704B274FEFAAA6C3681C /* Sources */,
+				BA3A815812F58A0E883DD73C730CDCDB /* Frameworks */,
+				48718BA818ABAA3A081599F999E0B6EC /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BouncyLayout;
+			productName = BouncyLayout;
+			productReference = BAA0E3EC8BE434AC1D05B692681312BC /* BouncyLayout */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 640C1B35CC63A2F478FC576B4EC75EE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDA1BE4A496C959455DA469868E5FCEF /* BouncyLayout */,
+				BA76AA5DCD34C1E1982EF315C7CFDC52 /* FancyGradient */,
+				56D7C03920EF45FC4E9EA4084CE7E720 /* Pods-EnzoCollage */,
+				DCC2830A1C7F120DBA942CD944EA72F9 /* Pods-EnzoCollage-EnzoCollageUITests */,
+				4202E19D5E15B1A3EE7903A6C15B0F28 /* Pods-EnzoCollageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48718BA818ABAA3A081599F999E0B6EC /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/BouncyLayout/BouncyLayout.modulemap",
+				"${PODS_ROOT}/Headers/Public/BouncyLayout/BouncyLayout-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/BouncyLayout-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/BouncyLayout/BouncyLayout.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/BouncyLayout/BouncyLayout-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+		BFDE8E176302FE6C0615F022D2735F30 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FancyGradient/FancyGradient.modulemap",
+				"${PODS_ROOT}/Headers/Public/FancyGradient/FancyGradient-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FancyGradient-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FancyGradient/FancyGradient.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FancyGradient/FancyGradient-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E4C39723B8049D1ACAD6EB56DD1D0E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BA98CE2533238535D2B9A39A0F005D6 /* Animationable.swift in Sources */,
+				CDDBB7FEB387366E5B3CC5E23F6EFE19 /* ColorAnimation.swift in Sources */,
+				B144BB7152A2F3E4826E1D79DB1B9BD6 /* ColorStopsAnimation.swift in Sources */,
+				AC8987351A815E66488E06E1F0DA9E7D /* CombineAnimation.swift in Sources */,
+				840F4F0E55FCDE3E36B64DE8B6D706E9 /* CustomAnimation.swift in Sources */,
+				788C546D661FD6E1A9196B84E6772CC9 /* DirectionAnimation.swift in Sources */,
+				947FA986C1D80AB9BFD868FA6CD08164 /* EmptyAnimation.swift in Sources */,
+				315DDD05BD0E8FA8C81D2AFF925880C5 /* FancyGradient-dummy.m in Sources */,
+				1AC399B56E722F5D7DA9800A71F1ED83 /* FancyGradientView.swift in Sources */,
+				5C0F7B3552DE9CB806BCD0D19659A0FA /* FancyGradientView+Animation.swift in Sources */,
+				8BBF59D684C6E3089FF21F7C7D640B09 /* FancyGradientView+Model.swift in Sources */,
+				E5BD6DDC717B72B32B50F63846B6EBE1 /* UIColor+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		628727EFC0889E0A8935EEC49B5BBEB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303EC73456B930EA30AFC9A81C1A3B58 /* Pods-EnzoCollage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		947C43D5DD26704B274FEFAAA6C3681C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B55319F32C26EDDC40B6AF5D1BFB289 /* BouncyLayout.swift in Sources */,
+				27F783DB2C624FA0D475CE2F5FFFD03E /* BouncyLayout-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D13B91D53AD1449E64DB34D3AE37D358 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5194F3FB5E00173136E07BCA27DD7E64 /* Pods-EnzoCollage-EnzoCollageUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD49CE62DAB64C96BABBB5B47E4ABC87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC5B70E99EF91CAC6ECEC3BEA104F7D /* Pods-EnzoCollageTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49123EBBDD9CA2EB809F32D30822BDF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BouncyLayout;
+			target = DDA1BE4A496C959455DA469868E5FCEF /* BouncyLayout */;
+			targetProxy = 068ADBE366E1E199E8DC6D66064B43B0 /* PBXContainerItemProxy */;
+		};
+		4F393040CD2EFC5A817FDEF7355E2943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FancyGradient;
+			target = BA76AA5DCD34C1E1982EF315C7CFDC52 /* FancyGradient */;
+			targetProxy = 22D6CB719E62FE9B8D59204B6C717C38 /* PBXContainerItemProxy */;
+		};
+		81E6D8F6B50ACB94A340856D70DF4AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EnzoCollage";
+			target = 56D7C03920EF45FC4E9EA4084CE7E720 /* Pods-EnzoCollage */;
+			targetProxy = 6C45E1EE9DC5F11E045F1772ABFF86C1 /* PBXContainerItemProxy */;
+		};
+		A4BCCD60715E803F9E2AC38B028D6B9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BouncyLayout;
+			target = DDA1BE4A496C959455DA469868E5FCEF /* BouncyLayout */;
+			targetProxy = A3CE29C3023E18165F10F1967CE9B95B /* PBXContainerItemProxy */;
+		};
+		B6538EF53A76315CB8969F46E7B5C80C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FancyGradient;
+			target = BA76AA5DCD34C1E1982EF315C7CFDC52 /* FancyGradient */;
+			targetProxy = 76DDD020E75FF3EE65CE13D4E1A72670 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06CBC7D580D34A68DC1EBA09EFFF73FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7544B8B630F8A070FDFF80B432509CC /* Pods-EnzoCollage-EnzoCollageUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnzoCollage-EnzoCollageUITests/Pods-EnzoCollage-EnzoCollageUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		593C719AB05AAB9E2D12CD16F680589F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D218D4C39D59A09A3E33BFF09F76A54 /* Pods-EnzoCollage-EnzoCollageUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnzoCollage-EnzoCollageUITests/Pods-EnzoCollage-EnzoCollageUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F52D3949B617EC64C3B6A673991E505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDDAD71DF54109997E9D863C30080EF4 /* Pods-EnzoCollage.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnzoCollage/Pods-EnzoCollage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C344A43B9A36F3DB6FB02A02C5DA1A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD302D34FB1E423DFEC3A2160DAECA5 /* BouncyLayout.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BouncyLayout/BouncyLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/BouncyLayout/BouncyLayout.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BouncyLayout;
+				PRODUCT_NAME = BouncyLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767C065B0831B614EA03773BA4FAD23E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 757C31241AC7D56205CE51A796761616 /* Pods-EnzoCollageTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84991695CC6B6F3ACC83AC00A9E28749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D73D25A007FC6F40BFCD4F6E3F4A14D3 /* BouncyLayout.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/BouncyLayout/BouncyLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/BouncyLayout/BouncyLayout.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = BouncyLayout;
+				PRODUCT_NAME = BouncyLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9EF293C98ED61F15D21093F4B7625C6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A8F59D2FC0E83B0B5F6F68F24AC29C /* FancyGradient.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FancyGradient/FancyGradient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/FancyGradient/FancyGradient.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FancyGradient;
+				PRODUCT_NAME = FancyGradient;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7051C070D1F8876D38B90BFAFFAABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B211F95C9BA112C281D60C04503C53B /* FancyGradient.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FancyGradient/FancyGradient-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/FancyGradient/FancyGradient.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FancyGradient;
+				PRODUCT_NAME = FancyGradient;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4411561396F8E565CFD8903EA6D5DDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2F9173E6E8310D2EAC62030F58C904 /* Pods-EnzoCollageTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E908F17C103C31F31F9FF555DB5DF22F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33CDE28BB00601A81083C812E06B3306 /* Pods-EnzoCollage.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EnzoCollage/Pods-EnzoCollage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C86FD2CB68A5C7491DFC7FBB988172B /* Build configuration list for PBXNativeTarget "Pods-EnzoCollage-EnzoCollageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06CBC7D580D34A68DC1EBA09EFFF73FE /* Debug */,
+				593C719AB05AAB9E2D12CD16F680589F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C763EF0CD0C775C4769E51E77BA47DF /* Build configuration list for PBXNativeTarget "FancyGradient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7051C070D1F8876D38B90BFAFFAABE /* Debug */,
+				9EF293C98ED61F15D21093F4B7625C6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		593864A9D38B83801B83D0EE5E2C363E /* Build configuration list for PBXNativeTarget "Pods-EnzoCollageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4411561396F8E565CFD8903EA6D5DDA /* Debug */,
+				767C065B0831B614EA03773BA4FAD23E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3467A68C41705B18F9DAF904DFDCD49 /* Build configuration list for PBXNativeTarget "BouncyLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84991695CC6B6F3ACC83AC00A9E28749 /* Debug */,
+				6C344A43B9A36F3DB6FB02A02C5DA1A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8392EB1C3E274A91C3141C3BA3164CC /* Build configuration list for PBXNativeTarget "Pods-EnzoCollage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F52D3949B617EC64C3B6A673991E505 /* Debug */,
+				E908F17C103C31F31F9FF555DB5DF22F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
