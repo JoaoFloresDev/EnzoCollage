@@ -10,12 +10,18 @@ class ViewController: UIViewController {
     lazy var style: [CellStyle] = { (0..<self.numberOfItems).map { _ in self.randomCellStyle } }()
     lazy var topOffset: [CGFloat] = { (0..<self.numberOfItems).map { _ in CGFloat(arc4random_uniform(250)) } }()
     
+    let mySegmentedControl: UISegmentedControl = {
+        let view = UISegmentedControl (items: ["Todas","Faltantes","Repetidas"])
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
+    
     lazy var sizes: [CGSize] = {
         
         return (0..<self.numberOfItems).map { _ in
             switch example {
             case .chatMessage: return CGSize(width: UIScreen.main.bounds.width - 20, height: 40)
-            case .photosCollection: return CGSize(width: floor((UIScreen.main.bounds.width - (5 * 10)) / 4), height: floor((UIScreen.main.bounds.width - (5 * 10)) / 4))
+            case .photosCollection: return CGSize(width: floor((UIScreen.main.bounds.width - (5 * 10)) / 4), height: floor((UIScreen.main.bounds.width - (7 * 10)) / 6))
             case .barGraph: return CGSize(width: 40, height: 400)
             }
         }
@@ -32,7 +38,7 @@ class ViewController: UIViewController {
     var additionalInsets: UIEdgeInsets {
         switch example {
         case .chatMessage: return UIEdgeInsets(top: 5, left: 0, bottom: 5, right: 0)
-        case .photosCollection: return UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
+        case .photosCollection: return UIEdgeInsets(top: 5, left: 10, bottom: 10, right: 10)
         case .barGraph: return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 10)
         }
     }
@@ -41,10 +47,6 @@ class ViewController: UIViewController {
     
     lazy var collectionView: UICollectionView = {
         
-        if self.example == .barGraph {
-            self.layout.scrollDirection = .horizontal
-        }
-        
         let view = UICollectionView(frame: .zero, collectionViewLayout: self.layout)
         view.translatesAutoresizingMaskIntoConstraints = false
         view.showsVerticalScrollIndicator = false
@@ -52,7 +54,7 @@ class ViewController: UIViewController {
         view.delegate = self
         view.dataSource = self
         view.register(Cell.self, forCellWithReuseIdentifier: Cell.reuseIdentifier)
-        view.backgroundColor = UIColor(named: "placeholder")
+        view.backgroundColor = .systemGray5//UIColor(named: "placeholder")
         return view
     }()
     
@@ -66,8 +68,14 @@ class ViewController: UIViewController {
         collectionView.contentInset = UIEdgeInsets(top: insets.top + additionalInsets.top, left: insets.left + additionalInsets.left, bottom: insets.bottom + additionalInsets.bottom, right: insets.right + additionalInsets.right)
         collectionView.scrollIndicatorInsets = UIEdgeInsets(top: insets.top, left: insets.left, bottom: insets.bottom, right: insets.right)
         view.addSubview(collectionView)
+//        view.addSubview(mySegmentedControl)
         
         NSLayoutConstraint.activate([
+//            mySegmentedControl.heightAnchor.constraint(equalToConstant: 100),
+//            mySegmentedControl.topAnchor.constraint(equalTo: view.topAnchor, constant: -insets.top),
+//            mySegmentedControl.leftAnchor.constraint(equalTo: view.leftAnchor, constant: -insets.left),
+//            mySegmentedControl.rightAnchor.constraint(equalTo: view.rightAnchor, constant: insets.right),
+            
             collectionView.topAnchor.constraint(equalTo: view.topAnchor, constant: -insets.top),
             collectionView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: -insets.left),
             collectionView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: insets.bottom),
@@ -75,8 +83,15 @@ class ViewController: UIViewController {
             ])
         
         if #available(iOS 11.0, *) {
-            navigationController?.navigationBar.prefersLargeTitles = false
+            navigationController?.navigationBar.prefersLargeTitles = true
         }
+        
+        let logoutBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(self.logoutUser));
+        self.navigationItem.rightBarButtonItem  = logoutBarButtonItem
+    }
+    
+    @objc func logoutUser() {
+        print("oi")
     }
 }
 
@@ -119,7 +134,9 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let cell = collectionView.cellForItem(at: indexPath) as? Cell
         let greenColor = UIColor(named: "darkGreen") ?? UIColor.systemGreen
-        cell?.fancyView.animate(newColors: [greenColor, UIColor.green], duration: 0.5)
+        cell?.fancyView.animate(newColors: [greenColor, UIColor.green], duration: 0.7)
+        cell?.fancyView.direction = .left
+        cell?.fancyView.animate(newDirection: .down, duration: 0.5)
         cell?.titleLabel.textColor = .systemGray5
         print("Click \(indexPath)")
     }

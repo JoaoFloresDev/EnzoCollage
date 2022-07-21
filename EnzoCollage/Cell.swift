@@ -49,7 +49,8 @@ class Cell: UICollectionViewCell {
         
     }
     
-    let fancyView = FancyGradientView(colors: [UIColor.white, UIColor.lightGray],
+    let fancyView = FancyGradientView(colors: [UIColor.systemGray6,
+                                               UIColor.lightGray],
                                       direction: .down,
                                       type: .axial)
     
